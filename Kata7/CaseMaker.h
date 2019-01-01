@@ -16,6 +16,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithString:(NSString *)string;
 
+- (void)camel: (NSMutableString **)string;
+- (void)pascal: (NSMutableString **)string;
+- (void)snake: (NSMutableString **)string;
+- (void)kebab: (NSMutableString **)string;
+- (void)title: (NSMutableString **)string;
+
+- (void)vowel: (NSMutableString **)string;
+- (void)consonant: (NSMutableString **)string;
+
+
 - (NSString *)makeCase:(NSArray *)caseStyles;
 @end
 
